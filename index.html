@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Time</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <a href="https://www.flaticon.es/iconos-gratis/ubicacion" title="ubicación iconos"></a>
+      <form class="form-search-weather">
+        <input placeholder="Buscar" id="search-input" class="search-input-styles" type="text" name="city">
+        <button id="search-submit" class="search-submit-styles">
+          <img class="search-icon" src="./src/assets/search.svg" alt="search-icon">
+        </button>
+      </form>
+
+      <div id="weather-card-id" class="weather-card">
+        <img id='weatherImage' class="weather-image" src="" alt="weather">
+        <p id="temp" class="temp"></p>
+        <div class="data-block">
+          <p id="humidity" class="humidity"></p>
+          <p id="windSpeed" class="windSpeed"></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
